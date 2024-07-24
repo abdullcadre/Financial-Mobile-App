@@ -221,7 +221,7 @@ Sub CreateLisThemes(name As String) As B4XView
 	p.SetLayoutAnimated(0, 0, 0,170dip, 115dip)
 	p.LoadLayout("themes")
 	geral.AdjustImageView(ImageView1Theme,name)
-	'Teste
+	'Teste e
 	Return p
 End Sub
 
