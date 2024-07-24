@@ -2,6 +2,15 @@
 .gradle/
 build/
 
+
+.GITIGNORE FILES
+bin/
+gen/
+src/
+*.apk
+*.dex
+*b4a.meta
+
 # Local configuration file (sdk path, etc)
 local.properties
 
