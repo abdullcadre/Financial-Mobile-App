@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: 'Merchant Copy';
+            src: url('./merchant-font.ttf');           
+        }
+        html{
+            font-family: 'Merchant Copy';
+        }
+        *{
+            box-sizing: border-box;
+            margin: 1;
+            padding: 1;
+            line-height: 1.4;
+        }
+        .flex{
+            display: flex;
+        }
+        .space-between{
+            justify-content: start;
+            gap: 16px;
+        }
+        .center{
+            align-items: center;
+            justify-content: center;
+        }
+        .center-align{
+            align-items: center;
+        }
+        .column-direction{
+            flex-direction: column;
+        } 
+        .logo{
+            
+            /* width: 97px; */
+            width: 55px;
+        }
+        .container{ 
+          max-width: 100%; 
+            padding: 2px;
+        }
+        .paragraph{
+            font-size: 25px;
+             font-weight: 400; 
+            
+        }
+        .mb-md{
+            margin-bottom: 15px; 
+        }
+        .mb-sm{
+            margin-bottom: 8px;
+        }
+        hr{
+            border-top: dashed;
+            border-width: 1px;
+            margin: 10px 0;
+        }
+        .grid{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 5fr 1fr 1fr 3fr;
+            gap: 2px;
+        }
+        .grid .paragraph{
+            line-height: 10px;
+        }
+        .text-end{
+            text-align: end;
+        }
+        .total{
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .signature{
+            font-weight: 600;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       
+<h1> <center> Movimento {id} </center></h1>
+       
+        <hr>
+        <div>
+            <div class="flex space-between">
+                <p class="paragraph"> <b> Note </b></p>
+                <p class="paragraph">{note}</p>
+            </div>
+            <div class="flex space-between">
+                <p class="paragraph"><b>Data</b></p>
+                <p class="paragraph">{date}</p>
+            </div>
+            <div class="flex space-between">
+                <p class="paragraph"><b>Importo</b></p>
+                <p class="paragraph">{amount}</p>
+            </div>
+            <div class="flex space-between">
+                <p class="paragraph"><b>Causale</b></p>
+                <p class="paragraph">{Type}</p>
+            </div>
+            
+        </div>
+       
+        <hr>
+        
+        <div class="flex column-direction center">
+            <center> 
+<h1> Grazie </h1>
+            <br>
+                +328 3826451
+           <br>
+          
+               qgaetano71@gmail.com
+            </center>
+        </div>
+    </div>
+</body>
+</html>

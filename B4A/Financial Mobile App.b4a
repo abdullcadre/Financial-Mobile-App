@@ -1,0 +1,303 @@
+﻿Build1=Default,b4a.fmaupdatefinal
+File1=_request.png
+File10=card.png
+File11=cardleftMenu.bal
+File12=cardNoty.bal
+File13=cardNotyPay.bal
+File14=cards.png
+File15=cardTBank.bal
+File16=cardTBankMain.bal
+File17=cardTheme(1).png
+File18=cardTheme(10).png
+File19=cardTheme(2).png
+File2=_sendicon.png
+File20=cardTheme(3).png
+File21=cardTheme(4).png
+File22=cardTheme(5).png
+File23=cardTheme(6).png
+File24=cardTheme(7).png
+File25=cardTheme(8).png
+File26=cardTheme(9).png
+File27=cardThumbal.png
+File28=category.bal
+File29=create.bal
+File3=1st screen.jpg
+File30=currencies.json
+File31=editprofile.bal
+File32=effect.png
+File33=ellipse 10.png
+File34=EmptyState.png
+File35=export.png
+File36=fotor-2024020692627.png
+File37=gallery.png
+File38=home.png
+File39=icons8-add-card-58.png
+File4=2024020692859.png
+File40=icons8-back-96.png
+File41=icons8-check-96.png
+File42=icons8-chip-card-30.png
+File43=icons8-email-96.png
+File44=icons8-money-96.png
+File45=icons8-note-90.png
+File46=icons8-password-96.png
+File47=icons8-search-120.png
+File48=icons8-transaction-90.png
+File49=icons8-user-96.png
+File5=about app.png
+File50=import.png
+File51=impressora.png
+File52=index.html
+File53=invoice.html
+File54=Lc.bal
+File55=leftmenu.bal
+File56=login.bal
+File57=logout.png
+File58=MainPage.bal
+File59=mainpageLogin.bal
+File6=back.png
+File60=MasterCard.png
+File61=menu.png
+File62=micrenc.ttf
+File63=more.png
+File64=mvm.bal
+File65=newCard.bal
+File66=newCard.png
+File67=notificationUI.bal
+File68=notyy.png
+File69=PlusJakartaSans-Bold.ttf
+File7=bakicon.png
+File70=PlusJakartaSans-ExtraBold.ttf
+File71=PlusJakartaSans-Medium.ttf
+File72=PlusJakartaSans-Regular.ttf
+File73=PlusJakartaSans-SemiBold.ttf
+File74=profile.png
+File75=request.png
+File76=request1.png
+File77=send.png
+File78=sendicon.png
+File79=settings.bal
+File8=calendar.png
+File80=settings.png
+File81=themes.bal
+File82=topup.png
+File83=Transaction.bal
+File84=transitions.png
+File85=Untitled-nonmodified.png
+File86=visa.png
+File9=card.bal
+FileGroup1=Default Group
+FileGroup10=imagesUI
+FileGroup11=bal
+FileGroup12=Default Group
+FileGroup13=Default Group
+FileGroup14=iconsmenu
+FileGroup15=Default Group
+FileGroup16=Default Group
+FileGroup17=Thmes
+FileGroup18=Thmes
+FileGroup19=Thmes
+FileGroup2=Default Group
+FileGroup20=Thmes
+FileGroup21=Thmes
+FileGroup22=Thmes
+FileGroup23=Thmes
+FileGroup24=Thmes
+FileGroup25=Thmes
+FileGroup26=Thmes
+FileGroup27=Default Group
+FileGroup28=bal
+FileGroup29=Default Group
+FileGroup3=Default Group
+FileGroup30=Default Group
+FileGroup31=Default Group
+FileGroup32=imagesUI
+FileGroup33=imagesUI
+FileGroup34=Default Group
+FileGroup35=imagesUI
+FileGroup36=Default Group
+FileGroup37=imagesUI
+FileGroup38=iconsmenu
+FileGroup39=Default Group
+FileGroup4=Default Group
+FileGroup40=Default Group
+FileGroup41=Default Group
+FileGroup42=imagesUI
+FileGroup43=Default Group
+FileGroup44=Default Group
+FileGroup45=Default Group
+FileGroup46=Default Group
+FileGroup47=Default Group
+FileGroup48=Default Group
+FileGroup49=Default Group
+FileGroup5=iconsmenu
+FileGroup50=imagesUI
+FileGroup51=Default Group
+FileGroup52=Default Group
+FileGroup53=Default Group
+FileGroup54=Default Group
+FileGroup55=bal
+FileGroup56=Default Group
+FileGroup57=Default Group
+FileGroup58=bal
+FileGroup59=Default Group
+FileGroup6=imagesUI
+FileGroup60=Default Group
+FileGroup61=imagesUI
+FileGroup62=fontsUI
+FileGroup63=imagesUI
+FileGroup64=Default Group
+FileGroup65=Default Group
+FileGroup66=imagesUI
+FileGroup67=Default Group
+FileGroup68=imagesUI
+FileGroup69=fontsUI
+FileGroup7=imagesUI
+FileGroup70=fontsUI
+FileGroup71=fontsUI
+FileGroup72=fontsUI
+FileGroup73=fontsUI
+FileGroup74=iconsmenu
+FileGroup75=imagesUI
+FileGroup76=iconsmenu
+FileGroup77=iconsmenu
+FileGroup78=imagesUI
+FileGroup79=Default Group
+FileGroup8=Default Group
+FileGroup80=iconsmenu
+FileGroup81=Default Group
+FileGroup82=imagesUI
+FileGroup83=bal
+FileGroup84=iconsmenu
+FileGroup85=imagesUI
+FileGroup86=Default Group
+FileGroup9=bal
+Group=Default Group
+Library1=appcompat
+Library10=maskededittext
+Library11=palmohtmltopdf
+Library12=phone
+Library13=reflection
+Library14=sql
+Library15=stringutils
+Library16=viewsex
+Library17=xcustomlistview
+Library18=xui
+Library19=xui views
+Library2=b4xpages
+Library20=mpchartlib
+Library3=core
+Library4=dateutils
+Library5=designerutils
+Library6=fileprovider
+Library7=intellvold_datepicker
+Library8=json
+Library9=keyvaluestore2
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="33"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.LightTheme)~\n~SetActivityAttribute(main, android:windowSoftInputMode, adjustPan|stateHidden)~\n~SetApplicationAttribute(android:requestLegacyExternalStorage,true)~\n~SetApplicationAttribute(android:usesCleartextTraffic, "true")~\n~~\n~SetApplicationAttribute(android:theme, "@style/MyAppTheme")~\n~CreateResource(values, theme.xml,~\n~<resources>~\n~    <style name="MyAppTheme" parent="Theme.AppCompat.Light.NoActionBar">~\n~ ~\n~ ~\n~ ~\n~ ~\n~ <item name="colorAccent">#040925</item>~\n~        <item name="windowNoTitle">true</item>~\n~        <item name="windowActionBar">false</item>~\n~        <item name="android:navigationBarColor">#FF000000</item>~\n~ ~\n~ ~\n~ ~\n~    </style>~\n~</resources>~\n~)~\n~~\n~~\n~AddManifestText(<uses-permission~\n~	android:name="android.permission.WRITE_EXTERNAL_STORAGE"~\n~	android:maxSdkVersion="18" />~\n~)~\n~~\n~AddApplicationText(~\n~  <provider~\n~  android:name="android.support.v4.content.FileProvider"~\n~  android:authorities="$PACKAGE$.provider"~\n~  android:exported="false"~\n~  android:grantUriPermissions="true">~\n~  <meta-data~\n~  android:name="android.support.FILE_PROVIDER_PATHS"~\n~  android:resource="@xml/provider_paths"/>~\n~  </provider>~\n~)~\n~CreateResource(xml, provider_paths,~\n~   <files-path name="name" path="shared" />~\n~)
+Module1=|relative|..\AS_CardSlider
+Module10=MovmentMoney
+Module11=|relative|..\NewCard
+Module12=|relative|..\Notification_c
+Module13=Profile
+Module14=Settings
+Module15=Starter
+Module16=|relative|..\Transaction
+Module17=|relative|..\xChart
+Module2=AS_Properties
+Module3=AS_Settings
+Module4=|relative|..\B4XDrawer
+Module5=|relative|..\B4XMainPage
+Module6=|relative|..\geral
+Module7=|relative|..\ListCards
+Module8=|relative|..\loginAndCreate
+Module9=|relative|..\menuPage
+NumberOfFiles=86
+NumberOfLibraries=20
+NumberOfModules=17
+Version=12.8
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: Financial Mobile App
+	#VersionCode: 1
+	#VersionName: 
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: portrait
+	#CanInstallToExternalStorage: False
+	#Extends : android.support.v4.app.FragmentActivity
+'	#AdditionalJar: androidx.customview:customview-poolingcontainer
+'	#MultiDex: true
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: False
+	#IncludeTitle: false
+	#MultiDex:true
+#End Region
+
+#BridgeLogger: True
+
+Sub Process_Globals
+'	Private NativeMe As JavaObject
+	Public ActionBarHomeClicked As Boolean
+End Sub
+
+Sub Globals
+
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+'	NativeMe.InitializeContext
+	DateTime.DateFormat="dd/MM/yyyy"
+	Dim pm As B4XPagesManager
+	pm.Initialize(Activity)	
+	If File.Exists(File.DirInternal, "actualuser")=False Then		
+		File.WriteString(File.DirInternal, "actualuser", "nulo")		
+		File.WriteString(File.DirInternal,"coin", "€ ")
+	End If
+'	NativeMe.RunMethod("setTextScaleFactor", Array(1.0F))
+End Sub
+
+
+
+'Template version: B4A-1.01
+#Region Delegates
+
+Sub Activity_ActionBarHomeClick
+	ActionBarHomeClicked = True
+	B4XPages.Delegate.Activity_ActionBarHomeClick
+	ActionBarHomeClicked = False
+End Sub
+
+Sub Activity_KeyPress (KeyCode As Int) As Boolean
+	Return B4XPages.Delegate.Activity_KeyPress(KeyCode)
+End Sub
+
+Sub Activity_Resume
+	B4XPages.Delegate.Activity_Resume
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+	B4XPages.Delegate.Activity_Pause
+End Sub
+
+Sub Activity_PermissionResult (Permission As String, Result As Boolean)
+	B4XPages.Delegate.Activity_PermissionResult(Permission, Result)
+End Sub
+
+Sub Create_Menu (Menu As Object)
+	B4XPages.Delegate.Create_Menu(Menu)
+End Sub
+
+#if Java
+public boolean _onCreateOptionsMenu(android.view.Menu menu) {
+	 processBA.raiseEvent(null, "create_menu", menu);
+	 return true;
+	
+}
+#End If
+#End Region
+
+'Program code should go into B4XMainPage and other pages.
+
+
+
+
